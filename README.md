@@ -13,8 +13,7 @@ A sample of the environment is displayed below. You can choose the parking spot 
 
 ## Path Planning
 #### A* Algorithm
-The agent will find a path from start to its goal using A*. 
-This implementation of A* from [PythonRobotics](https://pythonrobotics.readthedocs.io/en/latest/modules/path_planning.html) considers parameters like obstacles and robot radius.
+The agent uses the A* algorithm to find a path from the start to the goal, considering obstacles and the robot's size.
 
 #### Interpolating Path With B-spline
 After finding a path in a discrete 100\*100 space, the path is smoothed and scaled to 1000\*1000 space of environment using b-spline.
